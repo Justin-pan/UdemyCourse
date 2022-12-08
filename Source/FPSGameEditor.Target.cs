@@ -9,5 +9,6 @@ public class FPSGameEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		ExtraModuleNames.Add("FPSGame");
+        DefaultBuildSettings = BuildSettingsVersion.V2;
 	}
 }
